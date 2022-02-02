@@ -14,6 +14,7 @@
 #include <port.h>
 
 #define PIN_LED  12//D6
+#define PWMRANGE 255
 
 int led_bri = 100; //[0, 100]
 bool led_power = false; //true or flase
