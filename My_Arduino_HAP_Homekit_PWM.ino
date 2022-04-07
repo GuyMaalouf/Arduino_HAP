@@ -63,6 +63,7 @@ void setup() {
   Serial.begin(115200);
   dht.begin();
   wifi_connect(); // in wifi_info.h
+  //homekit_storage_reset(); // to remove the previous HomeKit pairing storage when you first run this new HomeKit example
   my_homekit_setup();
 }
 
